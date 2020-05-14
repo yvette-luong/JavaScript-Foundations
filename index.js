@@ -103,8 +103,17 @@ console.log ()*/
 /* Add another paramter to your function called credit score. This parameter will be a number between 0 and 800 (a credit score).
 
 Then, add control flow within your function such that IF creditScore is above 740, interest rate drops by 0.5%, if credit score is below 660, interest rate increases by 0.5% and if credit score is anywhere between 660 and 740 interest rate doesn't change.
-*function 
+*/
 
+function creditScore()
+
+if  (creditScore > 740) {
+     console.log('interest rate drops by 0.5%');
+ }
+if  (creditScore < 660 ) {
+    console.log('interest rate increases by 0.5%');
+} else 
+    console.log (' interest rate not changes');
 
 
 

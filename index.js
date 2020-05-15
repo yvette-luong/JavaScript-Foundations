@@ -54,7 +54,7 @@ Check out the resources below for more of a step-by-step walk-through of this ma
 
 let numerator   = ( interestRate * (Math.pow(1 + interestRate),periods));
 let denominator = (( Math.pow((1 + interestRate),periods)) -1 ) ;
-let monthlyRate = (principal*(numerator)) / (denominator) ;
+let monthlyRate = principal*(numerator / denominator) ;
 console.log(monthlyRate)
 
 
@@ -64,17 +64,19 @@ console.log(monthlyRate)
 
 If your name is `Oscar` mortgageCalculator() should return "Oscar, your monthly rate is 1073.64"
 */
-/*const mortgageCalculator = function(principal,numerator,denominator) {
+/* function mortgageCalculato (principal,numerator,denominator) {
     console.log((principal*numerator)/(denominator))*/
 
 
-const mortgageCalculator = function(principal,numerator,denominator) {
+/*const mortgageCalculator = function(principal,numerator,denominator) {
     console.log((principal*(numerator))/(denominator))
     if (name === 'Oscar') {
         return 'Oscar, your monthly rate is 1073.64';}
-    }
-
-
+    }*/ 
+function mortgageCalculator (){
+    let = name + monthlyRate + monthlyRate ; 
+    return bill;        
+}   
 
 // 🏡 Task 4: Arguments and Parameters
 /* Substitute the variables in your functions for parameters such that you can substitute `P`, `I`, and `N` when you call the function.
@@ -104,16 +106,17 @@ console.log ()*/
 
 Then, add control flow within your function such that IF creditScore is above 740, interest rate drops by 0.5%, if credit score is below 660, interest rate increases by 0.5% and if credit score is anywhere between 660 and 740 interest rate doesn't change.
 */
+function mortgageCalculator(principal, interestRate, years, creditScore) 
+                            
+    if  (creditScore > 740){
+        interestRate = 0.05;
+    }
+   else if (creditScore < 660 ){
+       interestRate <= 0.05;
+   }     
 
-function creditScore()
+console.log (mortgageCalculator(principal, interestRate, years, creditScore));
 
-if  (creditScore > 740) {
-     console.log('interest rate drops by 0.5%');
- }
-if  (creditScore < 660 ) {
-    console.log('interest rate increases by 0.5%');
-} else 
-    console.log (' interest rate not changes');
 
 
 
@@ -132,11 +135,19 @@ For example, variableInterestRate(200000, 0.04, 30) should console.log:
 "{Name}, with an interest rate of 0.055, your monthly rate is $1136"
 "{Name}, with an interest rate of 0.06, your monthly rate is $1199"
 */
-function  variableInterestRate (P,N,I)
-
+ 
 let principal    = P ;
-let numerator    = N ;
-let interestRate = I;
+let years        = N ;
+let interestRate = I ;
+
+function variableInterestRate (P,N,I) {
+    let = name + 'with an intereset rate of' + monthlyRate ; 
+    return  
+   for (let i=0; i<(P,N,I).length; i++){
+       if (((P,N,I)[i])=== 0.005 || ((P,N,I)[i]) - 0.02) {
+           return `&{Name}, with an with an interest rate of ${}
+       }
+   }
 
 // 🌟🌟🌟 STRETCH 🌟🌟🌟//
 
